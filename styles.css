@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    clear: both;
+    width: 90%;
+    margin: auto;
+}
+
+.column{
+    float: left;
+    padding: 20px;
+}
+
+.three{
+    width: 75%;
+}
+
+.one{
+    width: 25%;
+}
+
+#pokedex{
+    border: 10px solid red;
+    margin-top: 30px;
+    min-height: 300px;
+    text-align:center;
+    position: fixed;
+    right: 0;
+}
+
+#pokedex h3, #pokedex p, #pokedex ul{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#pokedex ul{
+    list-style-position: inside;
+}
